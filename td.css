@@ -7,20 +7,21 @@
 h1 {
 	height: 100px;
 	font-size: 50px;
+	border-left: 4px solid black;
 	padding: 50px 300px 0 50px;
 	text-transform: uppercase;
 	/*background: #0023ff;*/
 	color: #ffffff;
-	background: #56ab2f; 
-    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f); 
+	background: #56ab2f;
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);
     background: linear-gradient(to right, #a8e063, #56ab2f);
 }
 
 body {
 	font-family: Montserrat;
 	/*background: #ef32d9;  /* fallbac
-    background: -webkit-linear-gradient(to right, #89fffd, #ef32d9); 
-    background: linear-gradient(to right, #89fffd, #ef32d9);*/  
+    background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);
+    background: linear-gradient(to right, #89fffd, #ef32d9);*/
     background: #A1FFCE;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -39,10 +40,11 @@ li {
 
 input[type="text"] {
 	height: 30px;
-	font-size: 20px;
+	font-size: 15px;
 	padding-left: 20px;
 	margin-left: 10px;
 	width: 300px;
+	text-align: center;
 }
 
 input[type="submit"] {
@@ -59,4 +61,11 @@ input[type="submit"] {
 .fa-file-text-o {
 	position: relative;
 	left: 25px;
+}
+
+#remove {
+	color: red;
+	font-size: 20px;
+	cursor: pointer;
+	padding-right: 5px;
 }
